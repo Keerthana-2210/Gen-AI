@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# Environment variables
+.env
+
+# Generated vector databases
+vectorstore/
+faiss_index/
+vector_db/
+chroma/
+chroma_db/
+data/vectorstore/
+data/faiss_index/
+data/vector_db/
+data/chroma_db/
+*.faiss
+*.faiss.*
+**/index.pkl
+chroma.sqlite3
+
+# Uploaded documents are kept local
+data/documents/*
+!data/documents/.gitkeep
+
+# IDE and editor files
+.vscode/
+.idea/
+*.code-workspace
+
+# Operating system files
+.DS_Store
+Thumbs.db
